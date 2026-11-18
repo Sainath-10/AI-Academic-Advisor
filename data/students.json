@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "student_id": "SAMPLE-001",
+      "name": "Sample Student A",
+      "program": "Computer Science",
+      "current_semester": 3,
+      "completed_courses": ["CS 101", "CS 201", "MATH 151", "MATH 152", "ENG 102"],
+      "interests": ["machine learning", "robotics"],
+      "notes": "Sample profile used for demos and tests."
+    },
+    {
+      "student_id": "SAMPLE-002",
+      "name": "Sample Student B",
+      "program": "Data Science",
+      "current_semester": 2,
+      "completed_courses": ["CS 101", "MATH 151", "STAT 210"],
+      "interests": ["data visualization", "public policy"],
+      "notes": "Sample profile used for demos and tests."
+    }
+  ]
+}

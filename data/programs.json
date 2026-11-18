@@ -1,0 +1,121 @@
+{
+  "university": "Northgate University",
+  "disclaimer": "SAMPLE DATA - fictional degree requirements created for demonstration. Not official university policy.",
+  "programs": [
+    {
+      "id": "cs-bs",
+      "name": "Computer Science",
+      "degree": "Bachelor of Science",
+      "total_credits": 120,
+      "required_courses": [
+        "CS 101",
+        "CS 201",
+        "CS 205",
+        "CS 210",
+        "CS 301",
+        "CS 310",
+        "CS 360",
+        "MATH 151",
+        "MATH 152",
+        "MATH 251",
+        "STAT 210",
+        "PHYS 121",
+        "PHYS 122",
+        "ENG 102",
+        "PHIL 220"
+      ],
+      "elective_requirements": [
+        {
+          "name": "Upper-level Computer Science electives",
+          "courses_required": 3,
+          "department": "Computer Science",
+          "min_level": 300
+        },
+        {
+          "name": "Approved technical electives",
+          "courses_required": 2,
+          "departments": [
+            "Computer Science",
+            "Mathematics",
+            "Statistics",
+            "Physics"
+          ],
+          "min_level": 300
+        }
+      ],
+      "notes": [
+        "A grade of C or better is required in every course counted toward the major.",
+        "At most two major courses may be transferred from another institution.",
+        "PHIL 220 may be replaced by any approved ethics course with adviser approval."
+      ]
+    },
+    {
+      "id": "ds-bs",
+      "name": "Data Science",
+      "degree": "Bachelor of Science",
+      "total_credits": 120,
+      "required_courses": [
+        "CS 101",
+        "CS 201",
+        "CS 205",
+        "CS 310",
+        "CS 350",
+        "MATH 151",
+        "MATH 152",
+        "MATH 251",
+        "MATH 310",
+        "STAT 210",
+        "STAT 320",
+        "ENG 102",
+        "PHIL 220"
+      ],
+      "elective_requirements": [
+        {
+          "name": "Data science electives",
+          "courses_required": 3,
+          "departments": [
+            "Computer Science",
+            "Statistics",
+            "Mathematics",
+            "Economics"
+          ],
+          "min_level": 300
+        }
+      ],
+      "notes": [
+        "CS 350 Machine Learning must be completed with a grade of C or better.",
+        "MATH 330 is strongly recommended as a data science elective.",
+        "At least one elective must involve a substantial data analysis project."
+      ]
+    },
+    {
+      "id": "math-ba",
+      "name": "Mathematics",
+      "degree": "Bachelor of Arts",
+      "total_credits": 120,
+      "required_courses": [
+        "MATH 151",
+        "MATH 152",
+        "MATH 251",
+        "MATH 261",
+        "MATH 310",
+        "MATH 330",
+        "CS 101",
+        "PHIL 110",
+        "ENG 102"
+      ],
+      "elective_requirements": [
+        {
+          "name": "Upper-level mathematics electives",
+          "courses_required": 3,
+          "department": "Mathematics",
+          "min_level": 300
+        }
+      ],
+      "notes": [
+        "MATH 161 may replace MATH 151 for students with strong preparation.",
+        "A writing-intensive course above the 200 level is required for graduation."
+      ]
+    }
+  ]
+}
