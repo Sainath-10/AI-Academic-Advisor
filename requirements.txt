@@ -1,0 +1,23 @@
+# Requires Python 3.11 or newer (Streamlit 1.66+ and langchain-google-genai 4.x).
+
+# User interface
+streamlit>=1.36
+
+# Configuration
+python-dotenv>=1.0
+
+# LangChain / LangGraph ecosystem
+langchain-core>=0.3
+langchain-google-genai>=4.0   # default provider: Google Gemini (free tier)
+langchain-groq>=1.0          # optional provider: Groq (free tier, chat only)
+langchain-openai>=0.2        # optional alternative provider
+langsmith>=0.3               # observability: trace graph, tool and model calls
+langchain-text-splitters>=0.3
+langgraph>=0.2
+
+# Vector database
+chromadb>=0.5
+
+# Data and document processing
+pandas>=2.0
+pymupdf>=1.24
